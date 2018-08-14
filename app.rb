@@ -5,5 +5,8 @@ module FormsLab
 
     # code other routes/actions here
 
+    get '/' do
+    end 
+
   end
 end
