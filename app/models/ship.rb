@@ -2,9 +2,9 @@ class Ship
   attr_reader :name, :type, :booty
   @@all = []
   def initialize(params)
-    @name = params[name]
-    @type = params[type]
-    @booty = params[booty]
+    @name = args[:name]
+    @type = args[:type]
+    @booty = args[:booty]
     @@all << self
   end
 
